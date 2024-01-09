@@ -8,14 +8,14 @@ experimenting with the idea of lightning (verkle) vectors of values through an a
 
 ## example output
 ```
-Path in TreeA:  [
-  'Spindle 𐂷 OIR',
-  '☿',
-  'Hawthon 𐂷 HUATHE',
-  'Blackthorn 𐂷 STRAIF',
-  'Apple 𐂷 QUERT',
-  'Ivy 𐂷 GORT',
-  'Vine 𐂷 MUIN'
+Path in TreeA:  [ '☿', '☢', '♘', '⚖', '☯', '☸' ]
+Path in TreeB:  [
+  'Opening ᚲ KANO',
+  'Growth ᛒ BERKANA',
+  'Journey ᚱ RAIDO',
+  'Joy ᚹ WUNJO',
+  '🜂'
 ]
-Path in TreeB:  [ 'WOOD', '⇠', '⚯', 'DESERT_JASPER', '꩜', 'PINK_AMETHYST' ]
+Path in TreeC:  [ '䷼', '䷬', '䷤', '䷠', '䷢', '䷡' ]
+Path in TreeD:  [ '𑗘', '▲', 'CAT', 'FOX', '꩜' ]
 ```

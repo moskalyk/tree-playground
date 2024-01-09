@@ -311,12 +311,17 @@ function randomWalkAndMirror(treeA, treeB) {
 }
 
 ;(() => {
-    let treeA = createBinaryTree(library, 0, 127);
-    let treeB = createBinaryTree(library, 128, 255);
+    let treeA = createBinaryTree(library, 0, 63);
+    let treeB = createBinaryTree(library, 64, 127);
+    let treeC = createBinaryTree(library, 128, 128+63);
+    let treeD = createBinaryTree(library, 128+63+1, 255);
     let [path1, path2] = randomWalkAndMirror(treeA, treeB);
+    let [path3, path4] = randomWalkAndMirror(treeC, treeD);
 
     console.log("Path in TreeA: ", path1);
     console.log("Path in TreeB: ", path2);
+    console.log("Path in TreeC: ", path3);
+    console.log("Path in TreeD: ", path4);
 
     // todo: implement some probability version, or, different geospaced ttl random loops
     // todo: implement an offset, so rather than same entry/exit point, 
